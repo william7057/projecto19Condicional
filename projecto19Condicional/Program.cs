@@ -10,6 +10,9 @@ namespace projecto19Condicional
     {
         static void Main(string[] args)
         {
+            //Ingresar el sueldo de una persona, si supera los 3000 pesos mostrar 
+            //un mensaje en pantalla indicando que debe abonar impuestos.
+
             float sueldo;
             Console.WriteLine("Ingrese su sueldo ? ");
             sueldo = float.Parse(Console.ReadLine());
